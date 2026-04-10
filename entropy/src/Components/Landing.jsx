@@ -273,7 +273,10 @@ function buildConversions(log10Joules, displayMode) {
   }).join(" | ");
 
   const rows = [
-    { label: "Number Size", value: buildNumberSizeText(log10Joules, displayMode) },
+    {
+      label: "Number Size",
+      value: buildNumberSizeText(log10Joules, displayMode),
+    },
     { label: "SI Unit", value: siValue },
     { label: "Volcano", value: volcanoReadable },
     { label: "Cats", value: catValue },
