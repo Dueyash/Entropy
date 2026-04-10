@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700&display=swap");
+
+.info-page {
+  min-height: 100vh;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(212, 95, 44, 0.14) 0,
+      transparent 36%
+    ),
+    radial-gradient(
+      circle at 85% 80%,
+      rgba(67, 124, 201, 0.16) 0,
+      transparent 42%
+    ),
+    linear-gradient(140deg, #f8efe2, #dbe7f8);
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  color: #1d2a39;
+}
+
+.info-panel {
+  width: min(760px, 100%);
+  background: #fffdfa;
+  border: 2px solid #e5c59f;
+  border-radius: 20px;
+  padding: 26px;
+  box-shadow: 0 20px 45px rgba(29, 42, 57, 0.16);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #204a85;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.info-panel h1 {
+  margin: 0 0 10px;
+  font-family: "Syne", "Trebuchet MS", sans-serif;
+}
+
+.info-panel h2 {
+  margin: 18px 0 8px;
+}
+
+.info-list {
+  margin: 8px 0 10px 20px;
+  padding: 0;
+}
+
+.info-list li {
+  margin: 6px 0;
+}
+
+.formula {
+  margin: 8px 0;
+  padding: 10px 12px;
+  background: #f2f7ff;
+  border: 1px solid #c9d5e4;
+  border-radius: 10px;
+  word-break: break-word;
+}
+
+.footnote {
+  margin-top: 18px;
+  color: #51606f;
+  font-size: 0.94rem;
+}
+
+.footnote a {
+  color: #204a85;
+}
+
+.cite {
+  margin-left: 4px;
+  font-size: 0.8em;
+}
+
+.cite a {
+  color: #204a85;
+  text-decoration: none;
+}
+
+.cite a:hover {
+  text-decoration: underline;
+}
+
+.citations-list {
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+
+.citations-list li {
+  margin: 6px 0;
+}
